@@ -1,4 +1,7 @@
 require 'sprockets'
+require 'therubyracer'
+require 'coffee-script'
+require 'sass'
 
 # sprocketsはアセットファイルを配置するパスを管理してあたかも1つのディレクトリにあるかのようにアクセスする機能を提供する
 # localhost:9292/assets/hello.js
